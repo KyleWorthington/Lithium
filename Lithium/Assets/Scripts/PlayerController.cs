@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-{
+{    
     [Header("Obejcts")]
     public Animator m_animator;
     private Rigidbody2D m_rigidbody2D;
@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
     {
         Movement();
 
+        // Attack Keybinds!
         if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             LaunchProjectile();
