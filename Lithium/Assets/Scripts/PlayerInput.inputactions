@@ -26,7 +26,7 @@
             ],
             "bindings": [
                 {
-                    "name": "2D Vector",
+                    "name": "Move",
                     "id": "c84e18f5-aa44-4eb4-92c5-3808cb8dd7b5",
                     "path": "2DVector",
                     "interactions": "",
